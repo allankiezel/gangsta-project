@@ -1,0 +1,20 @@
+{
+  "name": "gangsta/gangsta",
+  "description": "The Gangsta Framework.",
+  "keywords": ["framework", "gangsta"],
+  "license": "MIT",
+  "type": "project",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/allankiezel/gangsta-framework"
+    }
+  ],
+  "require": {
+    "allankiezel/gangsta-framework": "0.1.*"
+  },
+  "config": {
+    "preferred-install": "dist"
+  },
+  "minimum-stability": "stable"
+}
