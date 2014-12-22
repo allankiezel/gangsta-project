@@ -12,17 +12,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/allankiezel/gangsta-framework.git",
-                "reference": "7d38c99af52c28490db7f8753f105329a37388ba"
+                "reference": "07e01146b031381f21d00891f3b7db95db1a5340"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allankiezel/gangsta-framework/zipball/7d38c99af52c28490db7f8753f105329a37388ba",
-                "reference": "7d38c99af52c28490db7f8753f105329a37388ba",
+                "url": "https://api.github.com/repos/allankiezel/gangsta-framework/zipball/07e01146b031381f21d00891f3b7db95db1a5340",
+                "reference": "07e01146b031381f21d00891f3b7db95db1a5340",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "symfony/class-loader": "2.6.*"
+                "symfony/class-loader": "2.6.*",
+                "symfony/http-foundation": "2.6.*"
             },
             "require-dev": {
                 "mockery/mockery": "~0.9",
@@ -54,7 +55,7 @@
                 "source": "https://github.com/allankiezel/gangsta-framework/tree/master",
                 "issues": "https://github.com/allankiezel/gangsta-framework/issues"
             },
-            "time": "2014-12-22 03:34:53"
+            "time": "2014-12-22 04:21:58"
         },
         {
             "name": "symfony/class-loader",
@@ -103,6 +104,59 @@
                 }
             ],
             "description": "Symfony ClassLoader Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-12-02 20:19:20"
+        },
+        {
+            "name": "symfony/http-foundation",
+            "version": "v2.6.1",
+            "target-dir": "Symfony/Component/HttpFoundation",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/HttpFoundation.git",
+                "reference": "0109221f3cf012bf027768ad3e4236dae1af5332"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/0109221f3cf012bf027768ad3e4236dae1af5332",
+                "reference": "0109221f3cf012bf027768ad3e4236dae1af5332",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "symfony/expression-language": "~2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.6-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\HttpFoundation\\": ""
+                },
+                "classmap": [
+                    "Symfony/Component/HttpFoundation/Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
             "time": "2014-12-02 20:19:20"
         }
